@@ -17,7 +17,6 @@ body{
 .statistic-block{
     display: grid;
     padding: 20px;
-    grid-template-rows: repeat(1, 1fr);
     gap: 10px;
 }
 .block-txt{
@@ -46,15 +45,14 @@ body{
 }
 .statistic{
     display: grid;
-    padding: 20px;
-    max-height: 200px;
+    min-height: 200px;
 }
 .procent{
     text-align: center;
-    height: 200px;
-    padding: 10px;
+    min-height: 200px;
+    margin: 10px;
+    padding: 0px;
     background: blue;
-    box-sizing: border-box;
     color: aqua;
     font-size: 18px;
     font-weight: 600;
