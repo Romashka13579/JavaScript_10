@@ -15,4 +15,6 @@ function ClickAdd(){
     statistic.prepend(clone_procent);
     procents = document.querySelectorAll(".procent");
     statistic.style.gridTemplateColumns = "repeat("+k+", 1fr)"
+    var procentvalue = procents[0].value;
+    console.log(procentvalue);
 }
