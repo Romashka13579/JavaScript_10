@@ -33,6 +33,12 @@ body{
     color: black;
     font-family: sans-serif;
 }
+.btns{
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 .add-more{
     width: 30px;
     height: 30px;
@@ -41,11 +47,11 @@ body{
     background-position: center;
     outline: none;
     border: none;
-    margin: auto;
 }
 .statistic{
     display: grid;
     min-height: 200px;
+    grid-template-columns: repeat(1, 1fr);
 }
 .procent{
     text-align: center;
