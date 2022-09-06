@@ -48,6 +48,11 @@ body{
     outline: none;
     border: none;
 }
+.less{
+    background: url(../img/minus-solid.svg);
+    background-size: 30px 30px;
+    background-position: center;
+}
 .statistic{
     display: grid;
     min-height: 200px;
