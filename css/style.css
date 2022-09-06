@@ -19,7 +19,7 @@ body{
     padding: 20px;
     gap: 10px;
 }
-.block-txt{
+.blocktxt{
     background: none;
     text-align: center;
     border: none;
@@ -29,7 +29,7 @@ body{
     font-family: sans-serif;
     width: 200px;
 }
-.block-txt::placeholder{
+.blocktxt::placeholder{
     color: black;
     font-family: sans-serif;
 }
